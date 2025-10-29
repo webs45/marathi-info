@@ -1,0 +1,128 @@
+body {
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #111;
+      margin: 0;
+      padding: 0 1rem;
+      line-height: 1.7;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .version {
+      background: #f3f3f3;
+      border-radius: 10px;
+      padding: 2px 6px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .icons i:hover {
+      color: #000;
+      cursor: pointer;
+    }
+
+    .article-meta {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .article-meta i {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    article {
+      max-width: 700px;
+      margin: 2rem auto;
+    }
+
+    article h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    article p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .references {
+      margin-top: 3rem;
+      border-top: 1px solid #e5e5e5;
+      padding-top: 1.5rem;
+    }
+
+    .references h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .references ol {
+      padding-left: 1.2rem;
+    }
+
+    .references a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    .references a:hover {
+      text-decoration: underline;
+    }
+    h3 {
+     font-family: 'Playfair Display', serif;
+      font-size:20px;
+      margin-bottom:5px;
+    }
+    hr {
+      opacity:0.4;
+      margin-right:60px;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding: 0 4rem;
+      }
+
+      header {
+        padding: 1.5rem 0;
+      }
+
+      article h1 {
+        font-size: 2.4rem;
+      }
+      h3 {
+        font-size:1.5rem;
+      }
+    }
